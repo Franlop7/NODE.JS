@@ -1,4 +1,13 @@
 const fs = require('node:fs')
+// sólo en los módulos nativos, que no tienen promesas nativas
+// const { promisify } = require('node:util')
+// const readFilePromise = promisify(fs.readFile)
+
+// console.log('Leyendo el primer archivo ...')
+// fs.readFilePromise('./archivo.txt', 'utf-8')
+//     .then(text => {
+//         console.log('Primer texto:', text)
+//     })
 
 console.log('Leyendo el primer archivo ...')
 // const text = fs.readFileSync('./archivo.txt', 'utf-8')
