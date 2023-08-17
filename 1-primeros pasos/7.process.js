@@ -1,4 +1,4 @@
-// argumentos de entrada 
+// argumentos de entrada
 // console.log(process.argv)
 
 // controlar el proceso y su salida
